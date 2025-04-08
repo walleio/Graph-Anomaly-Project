@@ -30,7 +30,7 @@ import pickle
 from torch.nn import CrossEntropyLoss
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from data_processing import process_data
+from data.data_processing import process_data
 
 cs_categories_short = transform_dict(original_dict=cs_categories)
 
